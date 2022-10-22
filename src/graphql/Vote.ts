@@ -33,6 +33,7 @@ export const VoteMutation = extendType({
 
         return {
           link,
+          // @ts-ignore
           user: user as User,
         };
       },
