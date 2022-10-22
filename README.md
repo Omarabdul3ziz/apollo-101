@@ -5,7 +5,7 @@
 - `prisma/schema.prisma`: the entry point for the db ORM schema.
 - `npx prisma generate`: generate the prisma client
 - `npx prisma migrate <db_name> --name "<migration_name>"`: migrate the new schema from `schema.prisma`
-
+- Relations?
 ### Nexus
 
 - `src/graphql`: the gql schema types.
